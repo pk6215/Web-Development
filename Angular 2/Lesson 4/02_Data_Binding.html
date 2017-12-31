@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+</head>
+<body>
+<div ng-app ng-init="product=1;price=10">
+Product: <input type="number" ng-model="product"><br>
+Price: <input type="number" ng-model="price"><br>
+<p><b>Total price: </b> {{product*price}}</p>
+
+</div>
+
+</body>
+</html>
