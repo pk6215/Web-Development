@@ -7,7 +7,7 @@
 <div ng-app ng-init="product=1;price=10">
 Product: <input type="number" ng-model="product"><br>
 Price: <input type="number" ng-model="price"><br>
-<p><b>Total price: </b> {{product*price}}</p>
+<p><b>Total price: </b> {{parseInt(product*price)}}</p>
 
 </div>
 
