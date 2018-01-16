@@ -1,7 +1,26 @@
 1. Why use ajs?
+
 2. What is typescript?
+Ans: TypeScript is a free and open-source programming language developed and maintained by Microsoft. It is a strict syntactical              superset of JavaScript, and adds optional static typing to the language. Anders Hejlsberg, lead architect of C# and creator of          Delphi and Turbo Pascal, has worked on the development of TypeScript.
+     [Typescript = ES5+SE6+Some Advance Features+Classes. It is superset of Javascript.]
+
 3. What are the difference between angular js 2, 4 and 5?
-4. What is node?
+
+4. What is node? or What is Node.js?
+Ans:
+    Node.js is an open source server framework
+    Node.js is free
+    Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+    Node.js uses JavaScript on the server
+    Node.js uses asynchronous programming!
+    Node.js can generate dynamic page content
+    Node.js can create, open, read, write, delete, and close files on the server
+    Node.js can collect form data
+    Node.js can add, delete, modify data in your database
+    Node.js files contain tasks that will be executed on certain events
+    A typical event is someone trying to access a port on the server
+    Node.js files must be initiated on the server before having any effect
+    Node.js files have extension ".js"
 5. What is cli?
 6. What is AOT Compiler?
 7. What is Component?
