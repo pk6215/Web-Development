@@ -1,12 +1,40 @@
-1. Why use ajs?
+1. Why use AngularJS?
+Ans: AngularJS is a structural framework for dynamic web apps. With AngularJS, designers can use HTML as the template language and it        allows for the extension of HTML's syntax to convey the application's components effortlessly. Angular makes much of the code you        would otherwise have to write completely redundant.
 
-2. What is typescript?
+2. What are the advantages of using AngularJS?
+Ans: The main Angular advantages over its closest rival, KnockoutJS, are: No need to use observable functions; Angular analyses the page      DOM and builds the bindings based on the Angular-specific element attributes. ... Angular modifies the page DOM directly instead of      adding inner HTML code. That is faster.
+
+3. What is difference between node JS and AngularJS?
+Ans: AngularJS is a client-side JavaScript MVC framework to develop a dynamic web application. ... Node.js is an open source, cross-          platform runtime environment for developing server-side and networking applications built on Google Chrome's JavaScript Engine (V8      Engine).
+
+4. How does angular work?
+Ans: When AngularJS starts your application, it parses and processes this new markup from the template using the compiler. The loaded,        transformed and rendered DOM is then called the view. The first kind of new markup are the directives. They apply special behavior      to attributes or elements in the HTML.
+
+5. Why angular is better than jquery?
+Ans: Angular and jQuery can't reasonably be compared. Angular is a framework, jQuery is a library. Frameworks have their place and            libraries have their place. However, there is no question that a good framework has more power in writing an application than a          library.
+
+6. What is MVC in angular?
+Ans: AngularJS - MVC Architecture. Advertisements. Model View Controller or MVC as it is popularly called, is a software design pattern      for developing web applications. A Model View Controller pattern is made up of the following three parts − Model − It is the lowest      level of the pattern responsible for maintaining data.
+
+7. What is a node NPM?
+Ans: npm , short for Node Package Manager, is two things: first and foremost, it is an online repository for the publishing of open-          source Node.js projects; second, it is a command-line utility for interacting with said repository that aids in package                  installation, version management, and dependency management.
+
+8. What is a DOM in Angularjs?
+Ans: AngularJS DOM. « Previous. Next » DOM stands for Document Object Model. AngularJS's directives are used to bind application data to      the attributes of HTML DOM elements.
+
+9. What is difference between angular js and Javascript?
+Ans: AJAX is a way for JavaScript to request data from a server without refreshing the page or blocking the application. jQuery is a          JavaScript library built to automate and simplify common web tasks like AJAX or animation. Angular is a hip JavaScript framework        which is made for building large, single-page web applications.
+
+10. What is the scope of Angular JS?
+Ans: AngularJS Scope. ❮ Previous Next ❯ The scope is the binding part between the HTML (view) and the JavaScript (controller). The scope      is an object with the available properties and methods. The scope is available for both the view and the controller.
+
+11. What is typescript?
 Ans: TypeScript is a free and open-source programming language developed and maintained by Microsoft. It is a strict syntactical              superset of JavaScript, and adds optional static typing to the language. Anders Hejlsberg, lead architect of C# and creator of          Delphi and Turbo Pascal, has worked on the development of TypeScript.
      [Typescript = ES5+SE6+Some Advance Features+Classes. It is superset of Javascript.]
 
-3. What are the difference between angular js 2, 4 and 5?
+12. What are the difference between angular js 2, 4 and 5?
 
-4. What is node? or What is Node.js?
+13. What is node? or What is Node.js?
 Ans:
     Node.js is an open source server framework
     Node.js is free
@@ -21,7 +49,7 @@ Ans:
     A typical event is someone trying to access a port on the server
     Node.js files must be initiated on the server before having any effect
     Node.js files have extension ".js"
-5. What is cli?
+14. What is cli?
 6. What is AOT Compiler?
 7. What is Component?
 8. What is difference betWeen let and var?
