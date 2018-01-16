@@ -1,0 +1,9 @@
+1. Installation Process of Angular JS 5 [Node, Typescript, Visual Studio Code]
+2. Read CLI?
+3. Read Typescript [let, var, never, function, return types]
+4. [()] use for 2 way data binding? 
+5. what is @input and @output?
+6. what is attribute binding?
+7. What is difference between html attributes and dom?
+8. use of # -  (routing in 2nd AJS)
+

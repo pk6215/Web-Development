@@ -1,0 +1,30 @@
+1. Why use ajs?
+2. What is typescript?
+3. What are the difference between angular js 2, 4 and 5?
+4. What is node?
+5. What is cli?
+6. What is AOT Compiler?
+7. What is Component?
+8. What is difference betWeen let and var?
+9. What is karma.conf.js?
+10. Why one should use ng serve and npm start?
+    or What is difference between ng serve and npm start?
+11. what is template?
+12. How can you call your template through class?
+13. How can you call your template throug attribute?
+12. what is selector?
+13. what is templateUrl?
+14. what is style?
+15. what is styleUrls?
+16. What is SPA?
+17. what is never data type?
+18. What is interpolation?
+19. Where you can build up your global style of component?
+20. What is use of # in Angular JS 5?
+21. Why is used package.json in AJS 5?
+22. what is property data binding?
+23. what is webpacks?
+24. What is difference between html attributes and dom property?
+25. what is @input and @output?
+26. what is attribute binding?
+27. What is limitation of interpolation?

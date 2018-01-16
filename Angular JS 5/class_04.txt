@@ -1,0 +1,22 @@
+global style css = styles.css
+what is interpolation?
+nothing, just data binding in html
+
+three types
+
+1. one way data binding [component to view] is interpolation {{}}
+2. one way data binding [component to view]  and is property data binding [] bind-xxx
+3. two way data binding [view to component and component to view]
+
+
+
+
+Q. We use #, what is use of # in angular JS?
+one drive: login
+user:techiesera@outlook.com
+weareone@123
+
+
+read : typescript function, return type
+
+

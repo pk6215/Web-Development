@@ -1,0 +1,30 @@
+One way data binding
+property binding  - binds the dom which are non string data.
+syntax: [xxx] nd ng-xxx for binding non string value
+
+
+
+never keyword - 
+
+
+webpacks (main.ts contain all .ts files of application)
+
+
+What is difference between html attributes and dom?
+
+
+
+use of # -  (routing in 2nd AJS)
+
+
+
+Read it!!
+[()] use for 2 way data binding? 
+what is @input and @output?
+what is attribute binding?
+What is limitation of interplation? can't bind no string and boolean values.
+
+Note: use current .ts custom tag in main.ts
+
+
+

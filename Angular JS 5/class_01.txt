@@ -1,0 +1,30 @@
+Why use ajs?
+1. spa
+2. lightwieght
+3. to execute businesss logics on client side
+4. 
+
+
+installations:
+
+1. (go to node js official site and download system accordingly)
+
+    nodejs (>=4.4 && npm >=3.0)
+	command node -v (v9.3.0)
+	command npm -v (v5.5.1)
+2. (go to typescript official site and download)
+   typescript (>=2.0)
+	command npm install -g typescript (v2.6.2)
+3. visual studio code, sublime
+	VSCodeSetup-x64-1.18.1 installed
+
+go to Master drive
+command d:
+command cd fullpathname
+command npm install -g @angular/cli
+command ng new myFirstApp [e.g. command cd new folder name (of new project folder)]
+command cd myFirstApp
+command npm install
+command ng serve --o
+
+

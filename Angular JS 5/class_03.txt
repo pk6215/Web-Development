@@ -1,0 +1,22 @@
+karma.conf.js -- testing framework
+
+package-lock.json -- contain all dependencies
+
+
+why one should use ng serve and npm start?
+
+A. ng serve command uses in cmd and npm start uses in visual studio
+
+
+template - only internal html
+templateUrl - calling external html file (it is uses when html vary more than three lines)
+
+
+What is difference between let and var?
+
+---
+{{}}-inerpolation
+
+
+read typescript
+What is never data type?

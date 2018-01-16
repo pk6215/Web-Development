@@ -1,0 +1,34 @@
+class 2
+Angular 5
+1. AOT compiler (Ahead of Time Compiler)
+2. Speed up
+3. webpacks - use for bundling (main.ts & vendor.js)
+
+
+
+Visual Basic 
+********************
+
+Component = HTML(view)+Class(code-typescript)+Metadata(decorator)
+
+
+Open terminal window
+ctrl+~
+
+command npm install (ng serve)-- package.json ["start": "ng serve"]
+command npm start
+
+
+component?
+building block of AJS. (class+html file +decorator)
+
+
+
+src->app->app.component.ts
+
+
+
+What is difference between var and let?
+
+
+
