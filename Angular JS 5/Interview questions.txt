@@ -14,17 +14,52 @@
 13. How can you call your template throug attribute?
 12. what is selector?
 13. what is templateUrl?
-14. what is style?
+
+14. what is styles? or What is the role of "styles" in AJS 5?
+Ans: This is part of Component Decorator. We can insert our internal styles 
+
 15. what is styleUrls?
+Ans: This is part of Component Decorator. Through which we can reference our individual component's css (i.e external css)
+
 16. What is SPA?
+Ans: SPA stands for Single Page Application, but we can control the multiple pages as accordingly the use of particular one when that one is needed. Hence all HTML pages are not loaded. This beacuse our application increases its performance.
+
 17. what is never data type?
+
 18. What is interpolation?
+Ans: It is nothing, but just html data binding.
+    Syntax: {{Name}}
+
 19. Where you can build up your global style of component?
+Ans: main.css
+
 20. What is use of # in Angular JS 5?
+Ans: 
+
 21. Why is used package.json in AJS 5?
+Ans: 
+
 22. what is property data binding?
+When interpolation fail to bind the no string data then we can use property data binding.
+
 23. what is webpacks?
+
 24. What is difference between html attributes and dom property?
+Ans:
+Find some differences between  HTML attribute and DOM property
+a. Attributes are defined by HTML and properties are defined by DOM.
+b. The responsibility of HTML attributes is just to initialize DOM properties.  And then later DOM properties can change but HTML attributes cannot. 
+c. There are some HTML attributes that have corresponding DOM property  and those DOM properties have corresponding HTML attributes such as id.
+d.  There are also some HTML attributes that do not have corresponding DOM property such as colspan.
+e. There are also some DOM properties that do not have corresponding HTML attributes such as textContent.
+f.  The HTML attribute value contains initial value where as DOM property value contains current value.
+
 25. what is @input and @output?
+
 26. what is attribute binding?
+
 27. What is limitation of interpolation?
+Ans: We cannot bind the no string data through interpolation. (Note: For that we use property data binding)
+    example: <input type="text" [disabled]="{{true}}" value="Manas">
+             <input type="text" ng-disabled="isDasable" value="Manas">
+28. 
