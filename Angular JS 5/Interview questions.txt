@@ -50,63 +50,106 @@ Ans:
     Node.js files must be initiated on the server before having any effect
     Node.js files have extension ".js"
 14. What is cli?
-6. What is AOT Compiler?
-7. What is Component?
-8. What is difference betWeen let and var?
-9. What is karma.conf.js?
-10. Why one should use ng serve and npm start?
-    or What is difference between ng serve and npm start?
-11. what is template?
-12. How can you call your template through class?
-13. How can you call your template throug attribute?
-12. what is selector?
-13. what is templateUrl?
+Ans: A CLI (command line interface) is a user interface to a computer's operating system or an application in which the user responds to      a visual prompt by typing in a command on a specified line, receives a response back from the system, and then enters another            command, and so forth.
 
-14. what is styles? or What is the role of "styles" in AJS 5?
-Ans: This is part of Component Decorator. We can insert our internal styles 
+15. What is AOT Compiler?
+Ans: The Angular Ahead-of-Time (AOT) compiler converts your Angular HTML and TypeScript code into efficient JavaScript code during the        build phase before the browser downloads and runs that code. This guide explains how to build with the AOT compiler using different      compiler options and how to write Angular metadata.
 
-15. what is styleUrls?
-Ans: This is part of Component Decorator. Through which we can reference our individual component's css (i.e external css)
+16. What is Component?
+Ans: Component is consists of three building blocks:
+               a. Template (HTML = view)
+               b. Class (Code - Typescript = Method & Property)
+               c. Metadata (Information = Decorator)
+17. What is difference between let and var?
+Ans: 
 
-16. What is SPA?
+18. What is karma.conf.js?
+Ans: Testing Purpose
+
+19. Why one should use ng serve and npm start? or What is difference between ng serve and npm start?
+Ans: ng serve directly open your application file in browser without folllowing any explorer. But in npm start this not happen, it can only be allowed to allocate the a locallhost server for ready to use your application file. 
+
+20. What is template?
+Ans: It is technically HTML. But with template you only can define your internal tag reference.
+     template: `
+                 <h1>
+                 Hello {{Name}}
+                 </h1>
+                `
+21. How can you call your template through class?
+Ans: selector: '.app-FirstPage'
+
+22. How can you call your template throug attribute?
+Ans: selector: '[app-FirstPage]'
+
+23. What is selector?
+Ans: You can create your custom HTML tag.
+     selector: 'app-FirstPage'
+
+24. What is templateUrl?
+Ans: You can referred external component's html/template.
+     templateUrl: './test/test.component.html'
+
+25. What is styles? or What is the role of "styles" in AJS 5?
+Ans: This is part of Component Decorator. We can insert our internal styles.
+     styles: [`
+               h1{color:red;}
+               `]
+
+26. What is styleUrls?
+Ans: To attach the external component's css.
+     styleUrls: './test/test.component.css'
+[Ans: This is part of Component Decorator. Through which we can reference our individual component's css (i.e external css)]
+
+27. What is SPA?
 Ans: SPA stands for Single Page Application, but we can control the multiple pages as accordingly the use of particular one when that one is needed. Hence all HTML pages are not loaded. This beacuse our application increases its performance.
 
-17. what is never data type?
+28. What is never data type?
+Ans: 
 
-18. What is interpolation?
+29. What is interpolation?
 Ans: It is nothing, but just html data binding.
     Syntax: {{Name}}
 
-19. Where you can build up your global style of component?
+30. Where you can build up your global style of component?
 Ans: main.css
 
-20. What is use of # in Angular JS 5?
-Ans: 
+31. What is use of # in Angular JS 5?
+Ans:  
 
-21. Why is used package.json in AJS 5?
-Ans: 
+32. Why is used package.json in AJS 5?
+Ans: It contains all dependencies.
 
-22. what is property data binding?
-When interpolation fail to bind the no string data then we can use property data binding.
+33. What is property data binding?
+Ans: When interpolation fail to bind the no string data then we can use property data binding.
+     template:
+     `<input type="text" value="Manas" [disabled]="{{false}}">
+     <input type="text" value="Manas" ng-disabled="{{false}}">
+     <input type="text" value="Manas" ng-disabled="isDisabled">
+     `
+     export class testComponent{
+     public isDisabled = 'false';
+     }
+34. what is webpacks?
 
-23. what is webpacks?
-
-24. What is difference between html attributes and dom property?
+35. What is difference between html attributes and dom property?
 Ans:
-Find some differences between  HTML attribute and DOM property
-a. Attributes are defined by HTML and properties are defined by DOM.
-b. The responsibility of HTML attributes is just to initialize DOM properties.  And then later DOM properties can change but HTML attributes cannot. 
-c. There are some HTML attributes that have corresponding DOM property  and those DOM properties have corresponding HTML attributes such as id.
-d.  There are also some HTML attributes that do not have corresponding DOM property such as colspan.
-e. There are also some DOM properties that do not have corresponding HTML attributes such as textContent.
-f.  The HTML attribute value contains initial value where as DOM property value contains current value.
 
-25. what is @input and @output?
+36. Find some differences between  HTML attribute and DOM property?
+Ans: 
+     a. Attributes are defined by HTML and properties are defined by DOM.
+     b. The responsibility of HTML attributes is just to initialize DOM properties.  And then later DOM properties can change but HTML           attributes cannot. 
+     c. There are some HTML attributes that have corresponding DOM property  and those DOM properties have corresponding HTML attributes         such as id.
+     d.  There are also some HTML attributes that do not have corresponding DOM property such as colspan.
+     e. There are also some DOM properties that do not have corresponding HTML attributes such as textContent.
+     f. The HTML attribute value contains initial value where as DOM property value contains current value.
 
-26. what is attribute binding?
+37. What is @input and @output?
 
-27. What is limitation of interpolation?
+38. What is attribute binding?
+
+39. What is limitation of interpolation?
 Ans: We cannot bind the no string data through interpolation. (Note: For that we use property data binding)
     example: <input type="text" [disabled]="{{true}}" value="Manas">
              <input type="text" ng-disabled="isDasable" value="Manas">
-28. 
+40. 
