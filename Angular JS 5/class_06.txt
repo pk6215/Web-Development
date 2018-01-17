@@ -1,0 +1,23 @@
+class binding
+
+
+
+
+read constructor
+
+
+ngClass - for multiple class attachment
+
+
+event binding () - view to component
+
+
+on-click="Test()"
+
+
+Note: () & on-click are same
+
+
+Read - ngif, ngstyle
+
+
