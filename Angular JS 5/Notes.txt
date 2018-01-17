@@ -1,0 +1,102 @@
+index.html - <app-root> custom tag for index page view
+main.css - for global style changes
+app.component.ts - 
+
+import {Component} from "@angular/core"
+
+				@Component({
+					selector: '<app-root>'
+					template: '<h1>Hi</h1>'
+					styles:['h1{color:blue;}']
+				})
+
+
+export class appComponent{
+
+}
+
+app.module.ts
+
+import {appComponent} from "app.Component";
+
+
+-------------
+Interpolation - One Way Data Binding (Component To View)
+-------------
+<h1>{{Name}}</h1>--NORAML INTERPOLATION
+<h1>{{'Hello '+Name}}</h1>--CONCATENATION INTERPOLATION
+<h1>Hello {{Name}}</h1>--MESSAGE INTERPOLATION
+<h1>{{2+2}}</h1>--MATH ASSIGNMENT INTERPOLATION
+<h1>{{Name.length}}</h1>--PROPERTY INTERPOLATION
+<h1>{{Name.toUpperCase()}}</h1>--METHOD INTERPOLATION
+<h1>{{numAdd()}}</h1>--FUNCTION INTERPOLATION
+<h1>{{siteUrl}}</h1>--GLOBAL VARIABLE INTERPOLATION
+<h1>{{Name?Name:'No Name'}}</h1>TERNARY INTERPOLATION
+<h1><img src="{{imagePath}}"/>IMAGE INTERPOLATION
+
+
+export class appComponent{
+name:string = 'Manas';
+siteUrl:string = 'window.location.href';
+a:number = 25;
+b:number = 26.3;
+numAdd(){
+	return this.a+this.b;
+}
+imagePath:string = "./assets/myImage.png";
+}
+
+----------------
+Property Binding - One Way Data Binding (Component To View)
+----------------
+User 1: <input type="text" value="{{Name}}" [id]="test"> <!--output: Manas and set attribute id is to "test" -->
+User 2: <input type="text" value="{{Name}}"> <!--output: Manas -->
+User 3: <input disabled type="text" value="{{Name}}"> <!--output: disabled with Manas. You can not edit the inpput field  -->
+User 4: <input disabled="false" type="text" value="{{Name}}">Can not any change. Will follow to User 3.
+User 5: <input [disabled]="false" type="text" value="{{Name}}">Input field active with Manas
+User 6: <input ng-disabled="isDisabled" type="text" value="{{Name}}">Input field active with Manas
+
+export class appComponent{
+name:string = 'Manas';
+public isDisabled = false;
+}
+
+-------------
+Class Binding
+-------------
+
+
+	template: '
+<h1 class="text-Red">Hi</h1>Text in Red
+<h1 class="text-Red text-Italic">Hi</h1>Text Red and Italic 
+<h1 [class]="textRed">Hi</h1>Text In Red Due To Class Binding
+<h1 class="text-Green" [class]="textRed">Hi</h1>More Readability Of Class Binding And Regular Class Propery Does Not Work
+<h1 [class.text-red]="hasActive">Hi</h1>Text In Red
+<h1 [ng-class]="combineClasses">Hi</h1>Text In Red And Italic
+
+
+'
+	styles:['
+
+.text-Red{color:blue}
+.text-Green{color:blue}
+.text-Italic{font-style:italic}
+
+']
+
+
+export class appComponent{
+public textRed = 'text-Red';
+public hasActive = true;
+public hasBold = false;
+public hasItalic = true;
+
+combineClasses = {
+'text-Italic': this.hasItalic,
+'text-Bold': this.hasBold,
+'text-Red': this.hasActive,
+}
+
+
+
+}
