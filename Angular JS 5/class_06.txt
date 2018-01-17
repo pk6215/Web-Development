@@ -6,7 +6,7 @@ class binding
 read constructor
 
 
-ngClass - for multiple class attachment
+[ngClass]="xxxx" - for multiple class attachment
 
 
 event binding () - view to component
