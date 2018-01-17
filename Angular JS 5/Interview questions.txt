@@ -150,6 +150,11 @@ Ans:
 
 39. What is limitation of interpolation?
 Ans: We cannot bind the no string data through interpolation. (Note: For that we use property data binding)
-    example: <input type="text" [disabled]="{{true}}" value="Manas">
+    example: a. No string support
+             <input type="text" [disabled]="{{true}}" value="Manas">
              <input type="text" ng-disabled="isDasable" value="Manas">
+             b. We can not assign an expression to a variable i.e {{a=2+2}}. In console you can see "Template parse errors:" [It does                   not render your html page]
+             c. Can not access global/window variable i.e {{window.location.href}} but you can assing this in class variable 
+                  siteUrl:string = window.location.href; and then call <div>{{siteUrl}}
+
 40. 
