@@ -1,0 +1,25 @@
+7:51 AM 1/19/2018
+
+topics
+ngFor,ngSwitch,[()]
+
+
+what is directive?
+Making custom tag of html, attribute, class.
+
+
+ngSwitch - condition test for multiple statement
+ngSwitchCase
+
+getText($event) == [userName = event.target.value]
+
+ngModel - two way data binding
+
+
+
+
+
+Note: You have to attach "formModule"
+
+
+read: template driven form, module driven form, @input, @output

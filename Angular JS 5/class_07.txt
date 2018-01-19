@@ -1,0 +1,19 @@
+ngIf - for showing or hiding dom elements conditionaly
+events handle - 
+refrence variable - 
+one way - 
+
+
+What is difference between hidden and ngIf?
+
+hidden - only hide
+
+ngIf - hide from dom
+
+
+read constructor from typescript
+read ngFor
+
+
+make a form with all values
+
