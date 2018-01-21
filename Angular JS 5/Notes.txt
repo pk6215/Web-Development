@@ -72,7 +72,7 @@ Class Binding
 <h1 [class]="textRed">Hi</h1>Text In Red Due To Class Binding
 <h1 class="text-Green" [class]="textRed">Hi</h1>More Readability Of Class Binding And Regular Class Propery Does Not Work
 <h1 [class.text-red]="hasActive">Hi</h1>Text In Red
-<h1 [ng-class]="combineClasses">Hi</h1>Text In Red And Italic
+<h1 [ngClass]="combineClasses">Hi</h1>Text In Red And Italic
 
 
 '
@@ -100,3 +100,42 @@ combineClasses = {
 
 
 }
+
+
+-------------
+Style Binding
+-------------
+
+<div class="container">
+<div class="well-sm bg-primary">Class 06: Style Binding</div>
+<p [style.color]="'red'">Style binding syntax - [style.color]="'red'"</p>
+<p [style.color]="hasError?'red':'green'">Style binding conditional syntax  - [style.color]="hasError?'red':'green'"</p>
+<p [style.color]="hightlightColor">Style binding syntax property binding  - [style.color]="hightlightColor"</p>
+<p [ngStyle]="multiStyles">Multi Style binding syntax - [ngStyle]="multiStyles"</p>
+</div>
+
+
+import { Component } from '@angular/core';
+
+
+@Component({
+    selector: 'app-stylebinding',
+    templateUrl: './stylebinding.component.html',
+    styleUrls: ['./stylebinding.component.css']
+})
+
+
+
+
+export class stylebindingComponent{
+
+    public hasError = false;
+    public hightlightColor = 'blue';
+    hightlightColor2:string = 'olive';
+    multiStyles = {
+        color:'blue',
+        fontWeight:'bold',
+        margin:'10px',
+    }
+}
+
