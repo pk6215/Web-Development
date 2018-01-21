@@ -157,4 +157,34 @@ Ans: We cannot bind the no string data through interpolation. (Note: For that we
              c. Can not access global/window variable i.e {{window.location.href}} but you can assing this in class variable 
                   siteUrl:string = window.location.href; and then call <div>{{siteUrl}}
 
-40. 
+40. What is the synatx of property binding?
+Ans: bind-id="myId", [id]="myId"
+     public myId = 'test';
+
+41. Write the single class binding syntax?
+Ans: [class]="text-red"
+     public text-red = 'text-red'
+
+42. Write the correct syntax for condition based class bindind?
+Ans. [class.text-red="hasError"]
+     public hasError = true;
+
+43. Write the correct syntax for multiple class attachment?
+Ans. [ngClass]="multiClass"
+
+     public textRed = 'text-red';
+     public textGreen = 'text-green';
+     public textItalic = "text-italic";
+     public textBold = "text-bold";
+     public hasError = false;
+     public hasStyle = true;
+     public multiClass = {
+                         'text-green': this.hasError,
+                         'text-italic': this.hasStyle,
+                         'text-red': this.hasStyle,
+                         'text-bold': this.hasStyle,
+                         
+     }
+     
+44. 
+
