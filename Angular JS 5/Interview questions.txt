@@ -237,4 +237,16 @@ Ans: <p>name: <input type="text" #name /></p>
 Ans: ngSwitch is tested the multiple case statements as in other programming languages.
      syntax: [ngSwitch]="favColor" with *ngSwitchCase="case_1", *ngSwitchCase="case_2", *ngSwitchCase="case_3",  *ngSwitchDefault
 
-55. 
+55. What is use of ngFor?
+Ans: ngFor Directive ---- accessing list of html elements
+    syntaxes: 
+    1. *ngFor="let player of players" binding with {{player}} --- all player list
+    2. *ngFor="let player of players;index as i" adding index value {{i}} {{player}} --- index value with all player list
+    3. *ngFor="let player of players;first as f" binding with fisrt list true {{f}} {{player}} --- fisrt player list true/other false
+    4. *ngFor="let player of players;last as l" binding with last list true {{l}} {{player}} --- last player list true/other false
+    5. *ngFor="let player of players;odd as o" binding with old list true {{o}} {{player}} --- odd player list true/other false
+    6. *ngFor="let player of players;even as e" binding with even list true {{e}} {{player}} --- even player list true/other false
+
+56. What is directive?
+57. What is template driven form?
+58. What is module driven form?
