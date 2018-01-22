@@ -208,7 +208,13 @@ Ans: This is actually combination of property binding and event binding means th
 49. What is the resolution of "template parse error" when we perform two way data binding?
 Ans: Attach FormsMudule to app.mudule.ts and also attach it to import array 
 
-50. 
+50. What is structural directive?
+Ans: The structural directive are add or remove html elements from dom. There are three types of structural directives in angular js 5.
+     1. ngIf
+     2. ngSwitch
+     3. ngFor
+
+51. 
 
 
 
