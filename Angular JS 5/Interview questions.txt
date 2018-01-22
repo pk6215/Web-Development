@@ -214,7 +214,23 @@ Ans: The structural directive are add or remove html elements from dom. There ar
      2. ngSwitch
      3. ngFor
 
-51. 
+51. Write the different syntaxes of ngIf direcctive?
+Ans: *ngIf="false", *ngIf="true", *ngIf="show", *ngIf="show;then thenBlock;else elseBlock", 
 
+52. How can you bind the then block and else block in html?
+Ans: <h1 *ngIf="show;then thenBlock;else elseBlock">Any Content</h1>
+    <ng-template #thenBlock>
+        <h1>thenBlock Content</h1>
+    </ng-template>
+    <ng-template #elseBlock>
+        <h1>elseBlock Content</h1>
+    </ng-template>
 
+53. Write an application for onclick show or hide elements from dom with help of ngIf?
+Ans: <p>name: <input type="text" #name /></p>
+     <p *ngIf="showHide">phone: <input type="text" #phone /></p>
+     <p>address: <input type="text" #address /></p>
+     <p *ngIf="showHide">password: <input type="text" #password /></p>
+     <button (click)="saveChange()">{{showHide?"Hide":"Show"}} Details</button>
 
+54. 
