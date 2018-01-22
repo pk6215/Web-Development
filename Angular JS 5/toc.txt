@@ -1,0 +1,20 @@
+1. Introduction to Angular JS 5 ---- why ajs5, differebce between ajs 2, 4 & 5, benefits/features of ajs5
+2. Software Installations ---- node js, typescript, visual studio code, npm install
+3. Hello World App ---- 
+4. Component ---- html (template) + class (typescipt) + metadata (decorator)
+5. Interpolation ---- {{Name}} binds variable of html --- one way data binding (CLASS TO TEMPLATE)
+6. Property Binding ---- [disabled]="false", ng-disabled and bind-disabled binds no string variable ---  (CLASS TO TEMPLATE)
+7. Class Binding ---- [class]="textRed", [class.text-red]="hasActive" and [ngClass]="combineClasses" (CLASS TO TEMPLATE)
+8. Style Binding ---- [style.color]="'red'",, [style.color]="hasColor ? 'red':'green'", [style.color]="textRed", [ngStyle]="multiStyle" (CLASS TO TEMPLATE)
+9. Event Binding ---- (click)="Demo()", (click)="Demo($event)" (click)="Demo='Welcome Manas!!'" ,  --- (TEMPLATE TO CLASS)
+10. Template Reference Variable ---- <input type="text" #myInput /> with <button (click)="Demo(myInput.value)">Login</button>
+11. Two Way Data Binding ---- combination of property binding and event binding means the data flow from template to class i.e. [] and class to      template i.e (). The synax is [(ngModel)]="Name" is called Banana.
+12. ngIf Directive ---- 
+13. ngSwitch Directive ---- 
+14. ngFor Directive ---- 
+
+
+Reference
+https://codecraft.tv/courses/angular/built-in-directives/ngstyle-and-ngclass/
+
+
