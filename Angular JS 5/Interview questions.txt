@@ -233,4 +233,8 @@ Ans: <p>name: <input type="text" #name /></p>
      <p *ngIf="showHide">password: <input type="text" #password /></p>
      <button (click)="saveChange()">{{showHide?"Hide":"Show"}} Details</button>
 
-54. 
+54. What is ngSwitch?
+Ans: ngSwitch is tested the multiple case statements as in other programming languages.
+     syntax: [ngSwitch]="favColor" with *ngSwitchCase="case_1", *ngSwitchCase="case_2", *ngSwitchCase="case_3",  *ngSwitchDefault
+
+55. 
