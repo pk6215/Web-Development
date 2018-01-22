@@ -166,11 +166,11 @@ Ans: [class]="text-red"
      public text-red = 'text-red'
 
 42. Write the correct syntax for condition based class bindind?
-Ans. [class.text-red="hasError"]
+Ans: [class.text-red="hasError"]
      public hasError = true;
 
 43. Write the correct syntax for multiple class attachment?
-Ans. [ngClass]="multiClass"
+Ans: [ngClass]="multiClass"
 
      public textRed = 'text-red';
      public textGreen = 'text-green';
@@ -187,16 +187,19 @@ Ans. [ngClass]="multiClass"
      }
      
 44. What is style binding?
-Ans. This is class to view data binding - one way data binding. We can bind css styles as normally, conditionally and multiple class attachments.
+Ans: This is class to view data binding - one way data binding. We can bind css styles as normally, conditionally and multiple class attachments.
 
 45. Write all the style binding syntaxes?
-Ans. [style.color]="'red'", [style.color]="hasColor ? 'red':'green'", [style.color]="textRed", [ngStyle]="multiStyle"
+Ans: [style.color]="'red'", [style.color]="hasColor ? 'red':'green'", [style.color]="textRed", [ngStyle]="multiStyle"
 
 46. What is event binding?
-Ans. Event binding is also one way data binding but its flow is from template to class.
+Ans: Event binding is also one way data binding but its flow is from template to class.
      We can bind this different ways:
      1. (click)="Demo()"    ---- external calling
      2. (click)="Demo($event)" ----- event listener
      3. (click)="Demo='Welcome Manas!!'"  ---- internal calling
-47. 
+47. What is template reference variable? And which characcter is used for this?
+Ans: This is like a reference call out type of work. We can refer out input through event handler and get the value by passing same          reference in class. # characcter is used for template reference variable.
+     <input type="text" #myInput /> with <button (click)="Demo(myInput.value)">Login</button>
+48. 
 
