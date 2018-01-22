@@ -201,5 +201,14 @@ Ans: Event binding is also one way data binding but its flow is from template to
 47. What is template reference variable? And which characcter is used for this?
 Ans: This is like a reference call out type of work. We can refer out input through event handler and get the value by passing same          reference in class. # characcter is used for template reference variable.
      <input type="text" #myInput /> with <button (click)="Demo(myInput.value)">Login</button>
-48. 
+     
+48. What is two way data binding?
+Ans: This is actually combination of property binding and event binding means the data flow from template to class i.e. [] and class to      template i.e (). The synax is [(ngModel)]="Name" is called Banana.
+
+49. What is the resolution of "template parse error" when we perform two way data binding?
+Ans: Attach FormsMudule to app.mudule.ts and also attach it to import array 
+
+50. 
+
+
 
