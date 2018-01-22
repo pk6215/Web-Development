@@ -186,5 +186,17 @@ Ans. [ngClass]="multiClass"
                          
      }
      
-44. 
+44. What is style binding?
+Ans. This is class to view data binding - one way data binding. We can bind css styles as normally, conditionally and multiple class attachments.
+
+45. Write all the style binding syntaxes?
+Ans. [style.color]="'red'", [style.color]="hasColor ? 'red':'green'", [style.color]="textRed", [ngStyle]="multiStyle"
+
+46. What is event binding?
+Ans. Event binding is also one way data binding but its flow is from template to class.
+     We can bind this different ways:
+     1. (click)="Demo()"    ---- external calling
+     2. (click)="Demo($event)" ----- event listener
+     3. (click)="Demo='Welcome Manas!!'"  ---- internal calling
+47. 
 
