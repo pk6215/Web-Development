@@ -10,7 +10,8 @@
 10. Template Reference Variable ---- <input type="text" #myInput /> with <button (click)="Demo(myInput.value)">Login</button>
 11. Two Way Data Binding ---- combination of property binding and event binding means the data flow from template to class i.e. [] and class to      template i.e (). The synax is [(ngModel)]="Name" is called Banana.
 12. ngIf Directive ---- add/remove html elements from dom --- *ngIf="false", *ngIf="true">, *ngIf="show", *ngIf="show;then thenBlock;else elseBlock", <button (click)="saveChange()">{{showHide?"Hide":"Show"}} Details</button>
-13. ngSwitch Directive ---- 
+13. ngSwitch Directive ---- tested the multiple case statements as in other programming languages.
+     syntax: [ngSwitch]="favColor" with *ngSwitchCase="case_1", *ngSwitchCase="case_2", *ngSwitchCase="case_3",  *ngSwitchDefault
 14. ngFor Directive ---- 
 
 
