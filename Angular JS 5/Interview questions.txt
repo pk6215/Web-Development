@@ -248,5 +248,11 @@ Ans: ngFor Directive ---- accessing list of html elements
     6. *ngFor="let player of players;even as e" binding with even list true {{e}} {{player}} --- even player list true/other false
 
 56. What is directive?
+Ans: By this point you should be able to create your own custom component as well as use a set of built-in Angular directives.
+     But you might be surprised to hear that you’ve already created a custom directive. That’s because Components are Directives.
+     
 57. What is template driven form?
-58. What is module driven form?
+Ans: Form validation
+
+58. What is model driven form?
+Ans: 
