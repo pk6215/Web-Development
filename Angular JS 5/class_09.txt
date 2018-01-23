@@ -1,0 +1,19 @@
+Component Interaction
+
+@Input -- how build custom property 
+@Output -- how build custom event
+@Input() decorator
+@Output() decorator
+@EventEmitter  - - for event raise
+
+
+
+panert to child -- @Input()
+child to panert -- @Output [use @EventEmitter]
+
+
+
+read - main.ts and vendor.js
+
+publisher subscribe module - design pattern
+
