@@ -260,9 +260,14 @@ Ans:
 60. What is Component Interaction?
 Ans: To transfer data parent component to child component and child component to parent component.
 
-61.  What is @Input or custom property? How do you build this?
+61.  What is @Input or custom property? How do you build this? And How it works?
 Ans: When we send data from parent component to child component we need tu use @Input decorator.
-
+     step 1: name:string = "Manas"; in app.component.ts (parent)
+     step 2: bind the above value to template: `<product [parentData]="name"></product>`
+     step 3: @Input() public parentData; declare within class
+     step 4: {{parentData}} bind into the child template
+     
+     
 62. What is @Output or custom event? How do you build this?
 Ans: When we send data from child component to parent component we need tu use @output decorator.
 
