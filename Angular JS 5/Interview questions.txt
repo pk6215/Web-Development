@@ -256,3 +256,18 @@ Ans: Form validation
 
 58. What is model driven form?
 Ans: 
+
+60. What is Component Interaction?
+Ans: To transfer data parent component to child component and child component to parent component.
+
+61.  What is @Input or custom property? How do you build this?
+Ans: When we send data from parent component to child component we need tu use @Input decorator.
+
+62. What is @Output or custom event? How do you build this?
+Ans: When we send data from child component to parent component we need tu use @output decorator.
+
+63. What is EventEmitter()?
+Ans: Through EventEmitter() we can assign/create an Event in child component which we can referred to the parent component.
+
+64. What is emit()?
+Ans: We can emit/raise the EventEmitter() for sending data from child to component.
